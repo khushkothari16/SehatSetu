@@ -144,7 +144,7 @@ node backend/test_suite.js
 
 | Role | Login Identifier / Email | Password / OTP | Purpose |
 |---|---|---|---|
-| **Patient** | `9876543210` | `123456` | Book appointments, live queue token, view Rx & reminders |
+| **Patient** | `9876543210` | `123456` | Book appointments, live queue token, view Rx & reminder |
 | **ASHA Worker** | `9765433211` | `123456` | Rural patient roster, digital triage, consult requests |
 | **Doctor** | `dr.anjali.mehta@phc.gov.in` | Any / Demo | OPD queue management, buzzer, digital prescriptions |
 | **Hospital Admin** | `admin.khedphc@arogya.gov.in` | Any / Demo | Inbound referral acceptance, bed allocation & closure |
