@@ -1,0 +1,61 @@
+:root {
+  /* Medical Trust & Clarity Palette */
+  --primary: #0d9488;
+  --primary-hover: #0f766e;
+  --primary-light: #f0fdfa;
+  --primary-glow: rgba(13, 148, 136, 0.15);
+
+  --secondary: #0284c7;
+  --secondary-hover: #0369a1;
+  --secondary-light: #f0f9ff;
+
+  --emergency: #dc2626;
+  --emergency-hover: #b91c1c;
+  --emergency-light: #fef2f2;
+  --emergency-glow: rgba(220, 38, 38, 0.25);
+
+  --warning: #d97706;
+  --warning-light: #fffbeb;
+
+  --success: #16a34a;
+  --success-light: #f0fdf4;
+
+  --info: #2563eb;
+  --info-light: #eff6ff;
+
+  /* Neutral Surface & Typography */
+  --bg-app: #f8fafc;
+  --surface: #ffffff;
+  --surface-alt: #f1f5f9;
+  --border: #e2e8f0;
+  --border-subtle: #f1f5f9;
+  --border-strong: #cbd5e1;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-white: #ffffff;
+
+  /* Fonts */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.09), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+  --shadow-emergency: 0 0 0 4px rgba(220, 38, 38, 0.2);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Spacing */
+  --sidebar-width: 260px;
+  --header-height: 70px;
+  --bottom-nav-height: 64px;
+}

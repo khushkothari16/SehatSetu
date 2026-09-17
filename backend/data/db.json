@@ -1,0 +1,461 @@
+{
+  "patient": {
+    "id": "PAT-MH-2026-8491",
+    "name": "Rahul Sharma",
+    "nameHindi": "राहुल शर्मा",
+    "nameMarathi": "राहुल शर्मा",
+    "age": 34,
+    "gender": "Male",
+    "dob": "1992-04-14",
+    "phone": "+91 98765 43210",
+    "email": "rahul.sharma.rural@gmail.com",
+    "village": "Khed (Rajgurunagar)",
+    "district": "Pune",
+    "state": "Maharashtra",
+    "pincode": "410505",
+    "bloodGroup": "B+",
+    "abhaId": "91-4829-1029-4819"
+  },
+  "doctors": [
+    {
+      "id": "DOC-01",
+      "name": "Dr. Anjali Mehta",
+      "specialty": "General Physician",
+      "specialtyHindi": "सामान्य चिकित्सक",
+      "specialtyMarathi": "सामान्य फिजिशियन",
+      "degrees": "MBBS, MD (Medicine)",
+      "experience": "11 years",
+      "hospital": "Khed Primary Health Centre (PHC)",
+      "room": "OPD Room 4",
+      "fee": 0,
+      "feeDisplay": "Free",
+      "consultationModes": [
+        "offline",
+        "online"
+      ],
+      "availableDays": "Mon - Sat",
+      "opdTimings": "9:00 AM - 2:00 PM"
+    },
+    {
+      "id": "DOC-02",
+      "name": "Dr. Rajesh Deshmukh",
+      "specialty": "Cardiologist",
+      "specialtyHindi": "हृदय रोग विशेषज्ञ",
+      "specialtyMarathi": "हृदयरोग तज्ज्ञ",
+      "degrees": "MBBS, MD, DM (Cardiology)",
+      "experience": "16 years",
+      "hospital": "District Civil Hospital, Chakan",
+      "room": "Cardiac OPD Room 12",
+      "fee": 0,
+      "feeDisplay": "Free",
+      "consultationModes": [
+        "offline",
+        "online"
+      ],
+      "availableDays": "Mon, Wed, Fri",
+      "opdTimings": "10:00 AM - 4:00 PM"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "APT-2026-3450",
+      "doctorId": "DOC-01",
+      "doctorName": "Dr. Anjali Mehta",
+      "doctorSpecialty": "General Physician",
+      "doctorAvatar": null,
+      "facility": "Primary Health Centre (PHC)",
+      "room": "OPD Room 4",
+      "date": "2026-09-18",
+      "time": "02:00 PM",
+      "type": "Teleconsultation / Video",
+      "mode": "online",
+      "status": "Confirmed",
+      "tokenNumber": 40,
+      "token": "#40",
+      "reason": "Teleconsultation follow-up",
+      "fee": 0,
+      "createdAt": "2026-09-17T05:05:43.166Z",
+      "patientId": "PAT-40",
+      "patientName": "Savita Kamble",
+      "patientNameHindi": "राहुल शर्मा",
+      "patientPhone": "+91 98230 45678",
+      "patientVillage": "Khed (Rajgurunagar)",
+      "patientDistrict": "Pune",
+      "patientAbhaId": "91-4829-1029-4819",
+      "patientAge": 34,
+      "patientGender": "Male",
+      "patientBloodGroup": "B+",
+      "symptoms": "Teleconsultation follow-up",
+      "isLiveBooking": true
+    },
+    {
+      "id": "APT-2026-1368",
+      "doctorId": "DOC-01",
+      "doctorName": "Dr. Anjali Mehta",
+      "doctorSpecialty": "General Physician",
+      "doctorAvatar": null,
+      "facility": "Khed PHC",
+      "room": "Room 4",
+      "date": "2026-09-18",
+      "time": "10:00 AM",
+      "type": "In-Person OPD",
+      "mode": "offline",
+      "status": "Confirmed",
+      "tokenNumber": 39,
+      "token": "#39",
+      "reason": "Persistent fever and cough",
+      "fee": 0,
+      "createdAt": "2026-09-17T05:05:43.159Z",
+      "patientId": "PAT-39",
+      "patientName": "Rahul Sharma",
+      "patientNameHindi": "राहुल शर्मा",
+      "patientPhone": "+91 98765 43210",
+      "patientVillage": "Khed",
+      "patientDistrict": "Pune",
+      "patientAbhaId": "91-4829-1029-4819",
+      "patientAge": 34,
+      "patientGender": "Male",
+      "patientBloodGroup": "B+",
+      "symptoms": "Persistent fever and cough",
+      "isLiveBooking": true
+    },
+    {
+      "id": "APT-2026-9821",
+      "doctorId": "DOC-01",
+      "doctorName": "Dr. Anjali Mehta",
+      "doctorSpecialty": "General Physician",
+      "facility": "Khed Primary Health Centre (PHC)",
+      "room": "OPD Room 4",
+      "date": "2026-09-10",
+      "time": "11:30 AM",
+      "type": "In-Person OPD",
+      "mode": "offline",
+      "status": "Completed",
+      "tokenNumber": 35,
+      "token": "#35",
+      "patientId": "PAT-MH-2026-8491",
+      "patientName": "Rahul Sharma",
+      "patientPhone": "+91 98765 43210",
+      "reason": "Fever with dry cough for 3 days and throat irritation",
+      "completedAt": "2026-09-17T05:05:43.183Z"
+    }
+  ],
+  "queue": {
+    "appointmentId": "APT-2026-1368",
+    "patientId": "PAT-39",
+    "patientName": "Rahul Sharma",
+    "patientPhone": "+91 98765 43210",
+    "patientAbhaId": "91-4829-1029-4819",
+    "doctorName": "Dr. Anjali Mehta",
+    "facility": "Khed PHC",
+    "room": "OPD Room 4",
+    "userToken": 39,
+    "currentToken": 36,
+    "patientsAhead": 3,
+    "estimatedWaitMinutes": 12,
+    "status": "Waiting",
+    "updatedAt": "10:35 am"
+  },
+  "prescriptions": [
+    {
+      "id": "RX-2026-6008",
+      "date": "17 Sept 2026",
+      "doctorName": "Dr. Anjali Mehta",
+      "facility": "Khed PHC",
+      "diagnosis": "Seasonal Viral Pyrexia",
+      "notes": "Prescribed during OPD checkup.",
+      "patientName": "Rahul Sharma",
+      "abhaId": "91-4829-1029-4819",
+      "medicines": [
+        {
+          "name": "Paracetamol 650mg",
+          "dosage": "1 Tablet",
+          "frequency": "1-0-1",
+          "duration": "3 Days"
+        },
+        {
+          "name": "Cetirizine 10mg",
+          "dosage": "1 Tablet",
+          "frequency": "0-0-1",
+          "duration": "5 Days"
+        }
+      ],
+      "qrData": "ABHA:91-4829-1029-4819|RX:RX-2026-6008|NMC:2014082941",
+      "createdAt": "2026-09-17T05:05:43.190Z"
+    },
+    {
+      "id": "RX-2026-8910",
+      "date": "10 Sep 2026",
+      "doctorName": "Dr. Anjali Mehta",
+      "facility": "Khed Primary Health Centre (PHC)",
+      "diagnosis": "Acute Upper Respiratory Tract Infection (URTI) with High Fever",
+      "medicines": [
+        {
+          "name": "Amoxicillin 500mg",
+          "type": "Capsule",
+          "dosage": "1 Capsule",
+          "frequency": "1-0-1 (Twice daily)",
+          "duration": "5 Days",
+          "instructions": "Take strictly after food with warm water"
+        },
+        {
+          "name": "Paracetamol 650mg",
+          "type": "Tablet",
+          "dosage": "1 Tablet",
+          "frequency": "1-0-1 (Morning & Night)",
+          "duration": "3 Days",
+          "instructions": "Take after meals for fever > 100°F"
+        }
+      ],
+      "qrData": "ABHA:91-4829-1029-4819|RX:RX-2026-8910|NMC:2014082941"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "REM-RX-2026-8910-0",
+      "prescriptionId": "RX-2026-8910",
+      "medicineName": "Amoxicillin 500mg",
+      "type": "Capsule",
+      "dosage": "1 Capsule",
+      "instructions": "Take strictly after food with warm water",
+      "doctorName": "Dr. Anjali Mehta",
+      "frequency": "1-0-1 (Twice daily)",
+      "slotKey": "morning",
+      "slotLabel": "Morning Dose",
+      "scheduledTime": "08:00 AM",
+      "status": "taken",
+      "takenAt": "10:35 am"
+    },
+    {
+      "id": "REM-RX-2026-8910-1",
+      "prescriptionId": "RX-2026-8910",
+      "medicineName": "Paracetamol 650mg",
+      "type": "Tablet",
+      "dosage": "1 Tablet",
+      "instructions": "Take after meals for fever > 100°F",
+      "doctorName": "Dr. Anjali Mehta",
+      "frequency": "1-0-1 (Morning & Night)",
+      "slotKey": "morning",
+      "slotLabel": "Morning Dose",
+      "scheduledTime": "08:00 AM",
+      "status": "pending",
+      "takenAt": null
+    }
+  ],
+  "completedCheckups": [
+    {
+      "id": "PAT-35",
+      "patientId": "PAT-35",
+      "appointmentId": null,
+      "token": "#35",
+      "tokenNumber": 35,
+      "name": "Rahul Sharma",
+      "nameHindi": "",
+      "age": 34,
+      "gender": "Male",
+      "village": "Khed",
+      "diagnosis": "Acute Bronchitis & Rhinitis",
+      "doctorNotes": "Advised rest and warm hydration",
+      "followUpRequired": true,
+      "followUpDate": "2026-09-22",
+      "medicines": [
+        {
+          "name": "Amoxicillin 500mg",
+          "frequency": "1-0-1"
+        }
+      ],
+      "completedAt": "10:35 am",
+      "completedDate": "17 Sept 2026"
+    }
+  ],
+  "staffRequests": [],
+  "teleconsultWaitingPool": [
+    {
+      "callId": "CALL-1789621543206",
+      "patientName": "Rahul Sharma",
+      "callerPeerId": "peer_patient_test",
+      "symptoms": "Follow-up teleconsultation review"
+    }
+  ],
+  "referralChains": [
+    {
+      "id": "REF-TRK-2026-8941",
+      "patientId": "PAT-MH-2026-8491",
+      "patientName": "Rahul Sharma",
+      "patientNameHindi": "राहुल शर्मा",
+      "abhaId": "91-4829-1029-4819",
+      "age": 34,
+      "gender": "Male",
+      "village": "Khed Rural (खेड)",
+      "status": "Referral Closed",
+      "priority": "High Priority",
+      "primaryCondition": "Atypical Angina with ST Segment Fluctuations",
+      "createdAt": "08 Sep 2026, 10:15 AM",
+      "lastUpdated": "17 Sept 2026, 10:35 AM",
+      "hops": [
+        {
+          "hopId": "hop-1",
+          "stepNumber": 1,
+          "status": "completed",
+          "title": "Initial Primary Care & Triage Consultation",
+          "titleHindi": "प्रारंभिक प्राथमिक जांच व परामर्श",
+          "doctorName": "Dr. Kavita Deshmukh",
+          "doctorDegree": "MBBS, DCH (NMC Reg: 74921)",
+          "doctorRole": "Primary Medical Officer",
+          "facility": "Shirur Sub-Centre & Rural Clinic",
+          "facilityType": "Sub-Centre / Primary Health Post",
+          "department": "General Rural OPD",
+          "date": "08 Sep 2026",
+          "time": "10:15 AM",
+          "timestamp": "2026-09-08T10:15:00Z",
+          "vitals": {
+            "bp": "135/88 mmHg",
+            "pulse": "84 bpm",
+            "spo2": "97%",
+            "temp": "98.4°F",
+            "bloodSugar": "142 mg/dL"
+          },
+          "clinicalFindings": "Intermittent exertional chest discomfort for 4 days.",
+          "doctorRemarks": "Patient needs immediate escalation to secondary PHC.",
+          "actionTaken": "Referred to Khed PHC (Room 4 General Medicine)",
+          "referralSlipId": "SLIP-SHIRUR-8941"
+        },
+        {
+          "hopId": "hop-2",
+          "stepNumber": 2,
+          "status": "completed",
+          "title": "Secondary Physician Review & Cardiac Workup",
+          "titleHindi": "द्वितीयक चिकित्सक जांच एवं कार्डियक मूल्यांकन",
+          "doctorName": "Dr. Anjali Mehta",
+          "doctorDegree": "MD (Gen Med), DNB (NMC Reg: 849204-RJ)",
+          "doctorRole": "Senior Medical Officer & Duty Physician",
+          "facility": "Khed Primary Health Centre (PHC)",
+          "facilityType": "Primary Health Centre (PHC)",
+          "department": "Room 4 - General Medicine & OPD",
+          "date": "11 Sep 2026",
+          "time": "11:30 AM",
+          "timestamp": "2026-09-11T11:30:00Z",
+          "vitals": {
+            "bp": "130/84 mmHg",
+            "pulse": "88 bpm",
+            "spo2": "98%",
+            "temp": "98.6°F",
+            "bloodSugar": "136 mg/dL"
+          },
+          "clinicalFindings": "Repeat 12-lead ECG demonstrates persistent ST depression in leads V3-V5.",
+          "doctorRemarks": "Immediate tertiary cardiology referral required for formal Angiography.",
+          "actionTaken": "Referred to District Civil Hospital, Chakan (Cardiology Dept)",
+          "referralSlipId": "SLIP-KHED-0911"
+        },
+        {
+          "hopId": "hop-3",
+          "stepNumber": 3,
+          "status": "completed",
+          "title": "Tertiary Specialist Cardiology Consult & Angiography",
+          "titleHindi": "तृतीयक विशेषज्ञ हृदय रोग परामर्श व एंजियोग्राफी",
+          "doctorName": "Dr. Vikram Joshi",
+          "doctorDegree": "DM (Cardiology), MD, FACC",
+          "doctorRole": "Chief Interventional Cardiologist",
+          "facility": "District Civil Hospital & Trauma Centre, Chakan",
+          "facilityType": "District Civil Hospital",
+          "department": "Department of Cardiology & Cath Lab",
+          "date": "15 Sep 2026",
+          "time": "10:30 AM",
+          "timestamp": "2026-09-15T10:30:00Z",
+          "vitals": {
+            "bp": "Pending Intake",
+            "pulse": "Pending Intake",
+            "spo2": "Pending Intake",
+            "temp": "Pending Intake"
+          },
+          "clinicalFindings": "Priority Cath Lab Queue allocated.",
+          "doctorRemarks": "Electronic ABHA health records successfully transferred from Khed PHC.",
+          "actionTaken": "Awaiting Physical Cath Lab Consultation & Echo",
+          "referralSlipId": "SLIP-CHAKAN-018"
+        },
+        {
+          "hopId": "hop-1789621543222",
+          "stepNumber": 4,
+          "status": "completed",
+          "title": "Specialist Referral to Interventional Cardiology",
+          "titleHindi": "Interventional Cardiology रेफरल",
+          "doctorName": "Dr. Rajesh Deshmukh",
+          "doctorDegree": "Specialist Consultant",
+          "doctorRole": "Consultant Specialist",
+          "facility": "District Civil Hospital, Chakan",
+          "facilityType": "District Civil Hospital",
+          "department": "Cardiology Department",
+          "date": "17 Sept 2026",
+          "time": "10:35 AM",
+          "timestamp": "2026-09-17T05:05:43.221Z",
+          "vitals": {
+            "bp": "120/80 mmHg",
+            "pulse": "76 bpm",
+            "spo2": "98%",
+            "temp": "98.6°F"
+          },
+          "clinicalFindings": "Patient referred for advanced diagnosis & clinical care.",
+          "doctorRemarks": "Discharged in stable condition. Counter-referral back to Khed PHC for weekly review.",
+          "actionTaken": "Referral Concluded & Discharged",
+          "referralSlipId": "REF-543222"
+        }
+      ]
+    },
+    {
+      "id": "REF-TRK-2026-4410",
+      "patientId": "PAT-MH-2026-3829",
+      "patientName": "Sunita Devi",
+      "patientNameHindi": "सुनीता देवी",
+      "abhaId": "91-6621-9982-1102",
+      "age": 28,
+      "gender": "Female",
+      "village": "Alandi Rural",
+      "status": "Referral Sent",
+      "priority": "Urgent Priority",
+      "primaryCondition": "High-Risk Pregnancy (Gestational Hypertension & Severe Anemia)",
+      "createdAt": "09 Sep 2026, 02:40 PM",
+      "lastUpdated": "10 Sep 2026, 09:15 AM",
+      "hops": [
+        {
+          "hopId": "hop-1",
+          "stepNumber": 1,
+          "status": "completed",
+          "title": "Village Sub-Centre ANC Screening",
+          "titleHindi": "ग्राम उप-केंद्र प्रसव पूर्व जांच",
+          "doctorName": "Dr. Priya S. Patil",
+          "doctorDegree": "MBBS, DGO",
+          "doctorRole": "Community Health Officer & MO",
+          "facility": "Alandi Gramin Sub-Centre",
+          "facilityType": "Sub-Centre",
+          "department": "Maternal & Child Health",
+          "date": "09 Sep 2026",
+          "time": "02:40 PM",
+          "timestamp": "2026-09-09T14:40:00Z",
+          "vitals": {
+            "bp": "150/96 mmHg",
+            "pulse": "92 bpm",
+            "spo2": "96%",
+            "temp": "98.2°F",
+            "hemoglobin": "7.8 g/dL"
+          },
+          "clinicalFindings": "Severe anemia in pregnancy with pre-eclampsia features.",
+          "doctorRemarks": "Urgent OBGYN referral initiated.",
+          "actionTaken": "Referred to Khed PHC Maternity Wing",
+          "referralSlipId": "SLIP-ALANDI-4410"
+        }
+      ]
+    }
+  ],
+  "emergencyState": null,
+  "ashaRequests": [
+    {
+      "id": "REQ-ASHA-543211",
+      "patientName": "Sunita Devi",
+      "patientPhone": "+91 98230 45678",
+      "triageCategory": "Urgent",
+      "reason": "High blood pressure 160/100 detected in village screening",
+      "status": "Pending Review",
+      "createdAt": "2026-09-17T05:05:43.211Z"
+    }
+  ]
+}

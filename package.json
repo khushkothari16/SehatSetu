@@ -1,0 +1,12 @@
+{
+  "name": "sehatsetu-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SehatSetu - Rural Healthcare Access Platform Workspace",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "backend": "npm run start --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend"
+  }
+}
